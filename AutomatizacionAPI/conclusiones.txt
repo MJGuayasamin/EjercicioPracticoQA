@@ -1,0 +1,12 @@
+# Conclusiones del ejercicio de automatización de APIs / Registro - Login (https://www.demoblaze.com)
+
+1. Se logró automatizar exitosamente cada uno de los casos indicados.
+2. La API responde con status 200 tanto en escenarios correctos como en errores
+   (usuario ya existe o login fallido), por lo que la validación se basa en el contenido 
+   del cuerpo.
+3. La ejecución se enfoca en los usuarios y claves ingresados al inicio del script.
+4. Los tests fueron estructurados con funciones reutilizables, permitiendo la ejecución de múltiples 
+   casos de prueba como crear nuevo usuario o usuario ya existente en función de los datos enviados 
+   como parámetros.
+5. Se aplican buenas prácticas de automatización, como comentarios en el código y validación
+   de mensajes de confirmación en modales. 

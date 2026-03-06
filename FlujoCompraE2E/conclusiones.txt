@@ -1,0 +1,16 @@
+# Conclusiones del ejercicio de automatización E2E del Flujo de compra (https://demoblaze.com)
+
+1. Se logró automatizar exitosamente el flujo completo de compra, desde la selección de 
+   productos hasta la confirmación final del pedido.
+2. Se verificó de manera efectiva que los productos se agreguen correctamente al carrito
+   y que el sistema procese la orden mostrando los mensajes de confirmación esperados.
+3. Durante la ejecución, se notó que los textos de la página se mostraban de acuerdo con el idioma
+   del navegador. Por lo cual, para validar el éxito de la compra, la automatización no depende de 
+   mensajes de confirmación estáticos; en su lugar, valida que el nombre del cliente que se llenó en el 
+   formulario esté en el resumen final de la compra.
+4. Los tests fueron estructurados con funciones, permitiendo la reutilización para múltiples 
+   productos y escenarios.
+5. Se aplican buenas prácticas de automatización, como el manejo de elementos dinámicos, 
+   comentarios descriptivos, validaciones basadas en estados del DOM y aserciones en modales.
+6. La generación automática de screenshots tras ejecuciones exitosas (o fallidas) asegura una 
+   revisión ágil y proporciona evidencia clara del cumplimiento de los criterios de aceptación.
